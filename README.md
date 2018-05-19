@@ -4,7 +4,8 @@
 
 # The PiProjector
 This repo contains everything related to my Pi Projector.
-![PiProjector](https://github.com/MickMake/Project-PiProjector/raw/master/docs/PiProjector.jpg)
+
+![PiProjector](https://github.com/MickMake/Project-PiProjector/raw/master/PiProjector.jpg)
 
 ## What is it?
 The [DLP2000](http://www.ti.com/product/DLP2000) is a relatively cheap DMD, (Digital Mirror Device). It supports a resolution of 854 x 480. Not huge, but TI are selling their "[evaluation boards](http://www.ti.com/tool/DLPDLCR2000EVM)", (the DLP2000EVM), for around US$99 which is pretty cheap for a projector. However these eval boards are only designed for the [BeagleBone](http://beagleboard.org/bone).
