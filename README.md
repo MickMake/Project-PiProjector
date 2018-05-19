@@ -32,8 +32,8 @@ In later versions I'll be adding:
 * Servo control of focus.
 
 
-## What do you get?
-The current Rev 1.0 batch of boards I'm selling as a plain  "as is" PCB, although will be adding kit options later depending on demand.
+## What else do you need?
+The current Rev 1.0 batch of boards I'm [selling on Tindie](https://www.tindie.com/products/mickmake/pi-projector/) as a plain  "as is" PCB, although will be adding kit options later depending on demand.
 
 You will also need:
 
