@@ -50,5 +50,5 @@ You will also need:
 
 
 ## Directories
-`ArduinoIDE/` - Full Super Duper board support for the Arduino IDE. Currently implements basic GPIOs, SPI ports, LEDs, but no limited API.
+`PCB/` - PDF schematics and board layout.
 
