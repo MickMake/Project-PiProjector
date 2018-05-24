@@ -21,16 +21,8 @@ The adapter board makes a much cleaner, more permanent install for a Pi Zero W r
 
 
 ## What makes it special?
-Rev 1.0 - currently is a straight header to header adapter board. With the ability to power from a micro USB connector or from the DC jack on the DLP2000.
-A nice big ground plane gives a rock solid display, but I've left a void so that it doesn't interfere with the Pi Zero W WiFi signal.
-You can also mount the Pi Zero W above or below the PCB and mount the PCB above or below the projector, depending on how small you want the unit to be.
-
-In later versions I'll be adding:
-
-* LiPo battery powering and charging.
-* Camera mounting hole - so, you can easily attach to a camera tripod.
-* Line out audio! Currently all GPIOs are taken, so I'll need to think about this one. (If you want to use audio currently, you'll need to make use of Bluetooth audio.)
-* Servo control of focus.
+I think it's the only one of its kind. I know there are cheaper pico-projectors on AliExpress, but if you look carefully they are all limited to 640x480 or worse 320x240 resolution. They may *say* that it supports 4K HDMI, but this is scaled down.
+In the end, you get more bang for your buck with the DLP2000EVM and now you can use any old Raspberry Pi! A Pi Zero W makes it the cheapest thing around.
 
 
 ## What else do you need?
@@ -44,13 +36,52 @@ You will also need:
 * Jumper cable to connect 5v power to DLP200EVM.
 
 
-## Current status
-- 1.0 - Plain header to header adaptor.
-- 1.x - LiPo battery support, (TBD).
-- 1.x - Audio output, (TBD).
-- 1.x - Servo control over focus, (TBD).
+## PiProjector revisions
+
+### Rev 1.0
+
+Current status: Available on Tindie.
+
+![1.0](https://github.com/MickMake/Project-PiProjector/raw/master/PCB/1.0/PiProjector-1.0.png)
+
+Is a straight header to header adapter board. With the ability to power from a micro USB connector or from the DC jack on the DLP2000.
+A nice big ground plane gives a rock solid display, but I've left a void so that it doesn't interfere with the Pi Zero W WiFi signal.
+You can also mount the Pi Zero W above or below the PCB and mount the PCB above or below the projector, depending on how small you want the unit to be.
+
+`PCB/1.0` - PDF schematics and board layout.
 
 
-## Directories
-`PCB/` - PDF schematics and board layout.
+### Rev 1.1
+
+Current status: In production.
+
+![1.1](https://github.com/MickMake/Project-PiProjector/raw/master/PCB/1.1/PiProjector-1.1.png)
+
+Adds an 8 port GPIO I2C expander, (MCP23008SO). This was added because all of the GPIOs on the Raspberry Pi are used up by the DLP2000EVM.
+I also added a small notch to make it easier for someone to add/remove the SD card on the Pi Zero W.
+
+`PCB/1.1` - PDF schematics and board layout.
+
+
+### Rev 2.0
+
+Current status: In production.
+
+![2.0](https://github.com/MickMake/Project-PiProjector/raw/master/PCB/2.0/PiProjector-2.0.png)
+
+Now with LiPo charging and LDO! Make it *really* portable! I've also dropped the microUSB connector for power and now using a plain DC jack.
+
+`PCB/2.0` - PDF schematics and board layout.
+
+
+### Future plans
+
+In later versions I'll be adding:
+
+* Increase DC voltage levels to support in car use, (up to 15v).
+* Add 18650 LiPo battery holder.
+* Camera mounting hole - so, you can easily attach to a camera tripod.
+* Line out/headphone audio. (If you want to use audio currently, you'll need to make use of Bluetooth audio.)
+* Servo control of focus.
+* 3D printable enclosure.
 
