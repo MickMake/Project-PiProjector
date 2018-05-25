@@ -27,7 +27,8 @@ In the end, you get more bang for your buck with the DLP2000EVM and now you can 
 
 
 ## What else do you need?
-The current Rev 1.0 batch of boards I'm [selling on Tindie](https://www.tindie.com/products/mickmake/pi-projector/) as a plain  "as is" PCB, although will be adding kit options later depending on demand.
+The current Rev 1.0 & Rev 1.1 batch of boards I'm [selling on Tindie](https://www.tindie.com/products/mickmake/pi-projector/) as a plain "as is" PCB, although will be adding kit options later depending on demand.
+Rev 2.0 I'll be selling as both a kit and fully populated and tested board.
 
 You will also need:
 
@@ -49,7 +50,7 @@ Is a straight header to header adapter board. With the ability to power from a m
 A nice big ground plane gives a rock solid display, but I've left a void so that it doesn't interfere with the Pi Zero W WiFi signal.
 You can also mount the Pi Zero W above or below the PCB and mount the PCB above or below the projector, depending on how small you want the unit to be.
 
-`PCB/1.0` - PDF schematics and board layout.
+[PCB/1.0](PCB/1.0) - PDF schematics and board layout.
 
 
 ### Rev 1.1
@@ -61,7 +62,7 @@ Current status: In production.
 Adds an 8 port GPIO I2C expander, (MCP23008SO). This was added because all of the GPIOs on the Raspberry Pi are used up by the DLP2000EVM.
 I also added a small notch to make it easier for someone to add/remove the SD card on the Pi Zero W.
 
-`PCB/1.1` - PDF schematics and board layout.
+[PCB/1.1](PCB/1.1) - PDF schematics and board layout.
 
 
 ### Rev 2.0
@@ -72,7 +73,7 @@ Current status: In production.
 
 Now with LiPo charging and LDO! Make it *really* portable! I've also dropped the microUSB connector for power and now using a plain DC jack.
 
-`PCB/2.0` - PDF schematics and board layout.
+[PCB/2.0](PCB/2.0) - PDF schematics and board layout.
 
 
 ### Future plans
