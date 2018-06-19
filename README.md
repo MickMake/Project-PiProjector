@@ -47,9 +47,9 @@ You will also need:
 
 ### Rev 1.0
 
-Current status: Available on Tindie.
+Current status: Superseded.
 
-![1.0](https://github.com/MickMake/Project-PiProjector/raw/master/PCB/1.0/PiProjector-1.0.png)
+![1.0](https://github.com/MickMake/Project-PiProjector/raw/master/PCB/1.0/PiProjector-1.0-top.png)
 
 Is a straight header to header adapter board. With the ability to power from a micro USB connector or from the DC jack on the DLP2000.
 A nice big ground plane gives a rock solid display, but I've left a void so that it doesn't interfere with the Pi Zero W WiFi signal.
@@ -61,14 +61,26 @@ You can also mount the Pi Zero W above or below the PCB and mount the PCB above 
 ---
 ### Rev 1.1
 
-Current status: In production.
+Current status: Superseded.
 
-![1.1](https://github.com/MickMake/Project-PiProjector/raw/master/PCB/1.1/PiProjector-1.1.png)
+![1.1](https://github.com/MickMake/Project-PiProjector/raw/master/PCB/1.1/PiProjector-1.1-top.png)
 
 Adds an 8 port GPIO I2C expander, (MCP23008SO). This was added because all of the GPIOs on the Raspberry Pi are used up by the DLP2000EVM.
 I also added a small notch to make it easier for someone to add/remove the SD card on the Pi Zero W.
 
 [PCB/1.1](PCB/1.1) - PDF schematics and board layout.
+
+
+---
+### Rev 1.2
+
+Current status: Available on Tindie.
+
+![1.2](https://github.com/MickMake/Project-PiProjector/raw/master/PCB/1.2/PiProjector-1.2-top.png)
+
+Minor changes to SD card slot and tracks.
+
+[PCB/1.2](PCB/1.2) - PDF schematics and board layout.
 
 
 ---
